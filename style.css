@@ -46,7 +46,7 @@ nav ul {
     margin-top: 20px;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     list-style: none;
     background-color: antiquewhite;
     
@@ -56,13 +56,16 @@ nav ul {
     text-align: left;
     max-width: 100%;
     color: rgb(50, 3, 88);
+    font-size: 1.5rem;
 }
 
 
 .picture img{
-    width: 80%;
+    width: 60%;
+    height: 400px;
     text-align: right;
     text-align: center;
+
 
 
    
