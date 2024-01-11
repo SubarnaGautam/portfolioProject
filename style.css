@@ -1,0 +1,106 @@
+html{
+    background-color: #172f59;
+    font-size: 16px;
+}
+header{
+color: rgb(3, 56, 39);
+font-size: 0.8rem;
+float:left;
+margin-top: 0;
+background-color: #eef0f4;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+
+
+}
+nav li{
+    display: inline;
+    justify-content: space-around;
+    margin-left: 15px;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #edf1f8;
+    padding:10px;
+    border: 1px, solid;
+    border-radius: 4px;
+}
+
+.aboutme h2{
+    margin-top: 100px;
+    color: rgb(235, 238, 238);
+    text-align: center;
+}
+.aboutme2 ul{
+    display: grid;
+    grid-template-columns: 40% 60%;
+  
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    background-color: antiquewhite;
+    
+}
+.aboutme p{
+  
+    text-align: left;
+    max-width: 100%;
+    color: rgb(50, 3, 88);
+}
+
+
+.picture img{
+    width: 80%;
+    text-align: right;
+    text-align: center;
+
+
+   
+}
+.skillslogo img{
+    display: flex;
+    width: 80x;
+    height: 50px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color:antiquewhite;
+
+}
+.skills h2{
+    text-align: center;
+    color: white;
+}
+
+.projects{
+    text-align: center;
+    color: aquamarine;
+  
+}
+.projects a{
+    text-align: center;
+    color: aquamarine;
+    text-decoration: none;
+}
+.projects li{
+    list-style: none;
+
+}
+ a :hover{
+    text-align: center;
+    color: rgb(74, 6, 6);
+    text-decoration: underline;
+}
